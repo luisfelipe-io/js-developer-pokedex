@@ -3,5 +3,13 @@ export default class Pokemon {
   name;
   type;
   types = [];
-  photo;
+  image;
+  species;
+  height;
+  weight;
+  abilities = [];
+  genderInfo = {};
+  genderless = false;
+  eggGroups = [];
+  eggCycle = [];
 }
